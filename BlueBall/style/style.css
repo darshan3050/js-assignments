@@ -1,0 +1,42 @@
+.circle {
+  box-sizing: border-box;
+  height: 60px;
+  width: 60px;
+  margin: 0.1%;
+  border: 1px solid rgb(48, 39, 39);
+  border-radius: 50%;
+  float: left;
+}
+
+.circlewinner {
+  display: block;
+  background: rgb(244, 193, 65);
+  border-radius: 50%;
+
+  margin: 0;
+}
+
+.circleright {
+  display: block;
+  background: rgb(87, 87, 241);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin: 0;
+}
+
+.circleleft {
+  display: block;
+  background: rgb(211, 78, 78);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin: 0;
+}
+
+/* #container {
+    border: 1px solid #130808;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    } */
